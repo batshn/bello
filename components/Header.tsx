@@ -11,6 +11,19 @@ function Header() {
       <div className="flex flex-col md:flex-row items-center p-5 bg-[#c9c8b6]/10 shadow-md rounded-lg">
 
         {/*Gradient Back color*/}
+        <div className="
+        absolute
+        top-0
+        left-0
+        w-full
+        h-96
+        bg-gradient-to-br
+        from-[#5D8AA8]
+        to-gray-100
+        blur-3xl
+        -z-50
+        opacity-20
+        " />
       
 
         {/*logo  */}
