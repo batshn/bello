@@ -1,12 +1,20 @@
 import React from 'react'
-import { DragDropContext, Droppable } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable } from 'react-beautiful-dnd'
 
 function Board() {
   return (
-    <div>
-        
-    </div>
+
+        <DragDropContext>
+            <Droppable droppableId="board" direction="horizontal" type="column">
+                {(provided)=>(
+                    <div>
+                        {/*rendering columns*/}
+                    </div>
+                )}
+            </Droppable>
+        </DragDropContext>
+
   );
 }
 
-export default Board
+export default Board;
